@@ -1,0 +1,54 @@
+body {
+    margin: 0; font-family: 'lobster', Arial, Helvetica, sans-serif; 
+    background-color: rgb(232,232,232);
+}
+
+.container {
+    background-color: white; margin: 16px; border-radius: 2px;
+}
+
+.navbar {
+    padding: 26px; display: flex; align-items: center;
+}
+
+.navbar > .title {
+    font-size: 24pt; font-weight: bold; text-transform: uppercase;
+}
+
+.navbar > a {
+    color: rgb(180, 180, 180); text-transform: uppercase; display: block;
+    padding-left: 16px; padding-right: 16px; border-bottom: 4px solid #FFF;
+    padding-bottom: 8px; transition: border-bottom-color 0.4s, color 0.4s;
+    border-top: 4px solid #FFF; cursor: pointer;
+}
+
+.navbar > a:hover {
+    border-bottom-color: rgb(59, 229, 158); color: #000;
+}
+
+.gap {
+    flex-grow: 1;
+}
+
+.pic2 {
+    text-align: center;
+}
+
+.pic2 > img {
+    width: 200px; height: auto;
+}
+
+
+.posted-blogs {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+
+}
+
+.padding-pic {
+    text-align: center; width: 300px; height: auto;
+}
+
