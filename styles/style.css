@@ -55,3 +55,19 @@ body {
 .content {
     text-align: center;
 }
+
+.list {
+    display: block; margin-left: auto; margin-right: auto; width: 160px;
+}
+
+.padded {
+    padding: 26px; color: #777;
+}
+
+.question {
+    font-weight: bold; color: #222;
+}
+
+h1 {
+    color: #222;
+}
