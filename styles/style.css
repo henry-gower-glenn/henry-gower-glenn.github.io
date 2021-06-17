@@ -3,6 +3,24 @@ body {
     background-color: rgb(232,232,232);
 }
 
+@media screen and (max-width: 1200px) {
+    body {
+        background-color: tan;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+      background-color: olive;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body {
+      background-color: red;
+    }
+  }
+
 .container {
     background-color: white; margin: 16px; border-radius: 2px;
 }
