@@ -5,7 +5,7 @@ body {
 
 @media screen and (max-width: 1200px) {
     body {
-        background-color: tan;
+        background-color: white;
     }
 }
 
@@ -22,7 +22,7 @@ body {
   }
 
 .container {
-    background-color: white; margin: 16px; border-radius: 2px;
+    margin: 16px; border-radius: 2px;
 }
 
 .navbar {
